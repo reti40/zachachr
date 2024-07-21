@@ -1,0 +1,262 @@
+.Score_content {
+    padding-left: 50px;
+    padding-bottom: 150px;
+    width: 30%;
+    float: left;
+}
+
+.reachingout{
+    display: inline-block;
+    width: 270px;
+    text-align: center;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+/* redfin preview */
+
+.Redfin{
+    cursor: pointer;
+    position: absolute;
+}
+.Redfin_preview{
+    position: absolute;
+    background-color: grey;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: none;
+    opacity: 0;
+    font-size: 12px;
+    overflow-y: scroll; 
+    min-height: 100px;
+    height: 385px;
+    overflow: scroll;
+    text-align: left;
+}
+.Redfin:hover .Redfin_preview {
+    display: block;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* reflections preview */
+
+.Reflections{
+    cursor: pointer;
+    position: absolute;
+}
+.reflections_preview{
+    position: absolute;
+    background-color: grey;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: none;
+    opacity: 0;
+    font-size: 12px;
+    overflow-y: scroll; 
+    min-height: 100px;
+    height: 385px;
+    overflow: scroll;
+    text-align: left;
+}
+.Reflections:hover .reflections_preview {
+    display: block;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* Lying Down */
+
+.lyingdown{
+    cursor: pointer;
+    position: absolute;
+}
+.lying_down_preview{
+    position: absolute;
+    background-color: grey;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: none;
+    opacity: 0;
+    font-size: 12px;
+    overflow-y: scroll; 
+    min-height: 100px;
+    height: 385px;
+    overflow: scroll;
+    text-align: left;
+}
+.lyingdown:hover .lying_down_preview {
+    display: block;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* Bird on a Wire */
+
+.birdonawire{
+    cursor: pointer;
+    position: absolute;
+}
+.birdonawire_preview{
+    position: absolute;
+    background-color: grey;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: none;
+    opacity: 0;
+    font-size: 12px;
+    overflow-y: scroll; 
+    min-height: 100px;
+    height: 385px;
+    overflow: scroll;
+    text-align: left;
+}
+.birdonawire:hover .birdonawire_preview {
+    display: block;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* Nautilus */
+
+.naut{
+    cursor: pointer;
+    position: absolute;
+}
+.naut_preview{
+    position: absolute;
+    background-color: grey;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: none;
+    opacity: 0;
+    font-size: 12px;
+    overflow-y: scroll; 
+    min-height: 100px;
+    height: 385px;
+    overflow: scroll;
+    text-align: left;
+}
+.naut:hover .naut_preview {
+    display: block;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* waking up */
+
+.wakingup{
+    cursor: pointer;
+    position: absolute;
+}
+.wakingup_preview{
+    position: absolute;
+    background-color: grey;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: none;
+    opacity: 0;
+    font-size: 12px;
+    overflow-y: scroll; 
+    min-height: 100px;
+    height: 385px;
+    overflow: scroll;
+    text-align: left;
+}
+.wakingup:hover .wakingup_preview {
+    display: block;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* Jabberwocky */
+
+.jabb{
+    cursor: pointer;
+    position: absolute;
+}
+.jabb_preview{
+    position: absolute;
+    background-color: grey;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: none;
+    opacity: 0;
+    font-size: 12px;
+    overflow-y: scroll; 
+    min-height: 100px;
+    height: 385px;
+    overflow: scroll;
+    text-align: left;
+}
+.jabb:hover .jabb_preview {
+    display: block;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* Maxwell */
+
+.max{
+    cursor: pointer;
+    position: absolute;
+}
+.max_preview{
+    position: absolute;
+    background-color: grey;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: none;
+    opacity: 0;
+    font-size: 12px;
+    overflow-y: scroll; 
+    min-height: 100px;
+    height: 195px;
+    overflow: scroll;
+    text-align: left;
+}
+.max:hover .max_preview {
+    display: block;
+    opacity: 1;
+    z-index: 999;
+    bottom: 100%;
+}
+
+/* In Flux */
+
+.Influx{
+    cursor: pointer;
+    position: absolute;
+}
+.Influx_preview{
+    position: absolute;
+    background-color: grey;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: none;
+    opacity: 0;
+    font-size: 12px;
+    overflow-y: scroll; 
+    min-height: 100px;
+    height: 385px;
+    overflow: scroll;
+    text-align: left;
+}
+.Influx:hover .Influx_preview {
+    display: block;
+    opacity: 1;
+    z-index: 999;
+}

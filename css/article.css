@@ -1,0 +1,130 @@
+.Atonal_Theory{
+    display: inline-block;
+    position: relative;
+    float: right;
+    width: 50%;
+    padding-left: 25px;
+    padding-bottom: 150px;
+}
+
+.Tonal_Theory{
+    display: block;
+    padding: 10px;
+    width: 50%;
+    position: absolute;
+    padding-bottom: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* for Contextual Inversional Spaces */
+
+.docinfo_CIS {
+    cursor: pointer;
+    position: absolute;
+    font-size: 14px;
+}
+.docinfo_CIS_content{
+    position: absolute;
+    transform: translateX(50%);
+    background-color: grey;
+    color: white;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-size: 12px;
+    overflow-y: scroll; 
+    min-height: 100px;
+    height: 250px;
+    overflow: scroll;
+    text-align: left;
+}
+.docinfo_CIS:hover .docinfo_CIS_content {
+    display: block;
+    opacity: 1;
+    bottom: 100%;
+}
+
+/* Continuities */
+
+.Docinfo_Continuities{
+    cursor: pointer;
+    position: absolute;
+    font-size: 14px;
+}
+.Docinfo_Continuities_Content{
+    position: absolute;
+    transform: translateX(50%);
+    background-color: grey;
+    color: white;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-size: 12px;
+    overflow-y: scroll; 
+    min-height: 100px;
+    height: 250px;
+    overflow: scroll;
+    text-align: left;
+}
+.Docinfo_Continuities:hover .Docinfo_Continuities_Content {
+    display: block;
+    opacity: 1;
+    bottom: 100%;
+}
+
+/* CUP */
+
+.docinfo_CUP{
+    cursor: pointer;
+    position: absolute;
+    font-size: 14px;
+}
+.docinfo_CUP_content{
+    position: absolute;
+    transform: translateX(50%);
+    background-color: grey;
+    color: white;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-size: 12px;
+    overflow-y: scroll; 
+    min-height: 100px;
+    height: 250px;
+    overflow: scroll;
+    text-align: left;
+}
+.docinfo_CUP:hover .docinfo_CUP_content {
+    display: block;
+    opacity: 1;
+    bottom: 100%;
+}
+
+.articles {
+    animation: transitionIn 2.5s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX('-10deg');
+    }
+    
+    to {
+        opacity: 1;
+        transform: rotateX('0');
+    }
+}

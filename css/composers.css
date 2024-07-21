@@ -1,0 +1,73 @@
+.introductory {
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.khlist_sum {
+    animation: transitionIn 2.5s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX('-10deg');
+    }
+    
+    to {
+        opacity: 1;
+        transform: rotateX('0');
+    }
+}
+
+/* Accordion */
+
+#accordion {
+    margin: auto;
+    width: 750px;
+    padding-bottom: 150px;
+}
+
+#accordion li {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: whitesmoke;
+    border-radius: 4px;
+}
+
+#accordion li label {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#accordion li label span {
+    transform: rotate(90deg);
+    font-size: 12px;
+}
+
+#accordion label + input[type="radio"] {
+    display: none;
+}
+
+#accordion .kh_list {
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    font-size: 12px;
+}
+
+#accordion label + input[type="radio"]:checked + .kh_list {
+    max-height: 400px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,40 @@
+/* footer over everything */
+
+#footer{
+    z-index: 999;
+}
+
+/* header styling */
+
+.header{
+    position: fixed;
+    z-index: 999;
+}
+/* footer styling */
+
+.footerNav{
+    font-weight: normal;
+    text-align-last: center;
+    font-size: 25;
+    position: relative;
+}
+
+.footerbottom{
+    font-weight: normal;
+    text-align-last: center;
+    font-size: 10px;
+    background-color: #000;
+    padding: 10px;
+}
+
+.footerbottom {
+    color: white;
+}
+
+.footercontainer{
+    width: 100%;
+    bottom: 0;
+    margin-top: -100px;
+    position: fixed;
+    z-index: 999;
+}
