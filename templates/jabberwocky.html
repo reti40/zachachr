@@ -1,0 +1,143 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<link href="{{ url_for('static', filename='css/individual_score.css')}}" rel="stylesheet">
+<link href="{{ url_for('static', filename='css/lying_down.css')}}" rel="stylesheet">
+
+{% endblock %}
+
+{% block body %}
+
+<main>
+    <div class="body_content">
+        <div class="title_header">
+            <b>Jabberwocky</b> 2022 (<i>c.a. 8 minutes</i>)
+        </div>
+        <div class="instrument_subheader">
+            <i>for Jazz Big Band</i>
+        </div>
+        <button><a href="scores">Return</a></button>
+        <br><br>
+        <div class="document">
+            <embed src="static/pdf/Zacharias_J.pdf" width="500px" height="645px">
+        </div>
+        <div class="paragraph_content">
+            <audio controls>
+                <source src="{{ url_for('static', filename='audio/Zacharias_Jabberwocky.mp3')}}">
+            </audio>
+            <br>
+            <div class="small_text">
+                <i>Tuba is replaced by Bass Trombone during recording</i>
+            </div>
+            <br><br>
+            <div class="poem_title">
+                Jabberwocky
+            </div> 
+            <div class="poem_author">
+                Lewis Carroll
+            </div>
+            <br>
+            <div class="poem_content">
+                <i>
+                Twas brillig, and the slithy toves
+                <br>
+                did gyre and gimble in the wabe:
+                <br>
+                All mimsy were the borogoves,
+                <br>
+                And the mome raths outgrabe.
+                <br><br>
+                Beware the Jabberwock, my son!
+                <br>
+                The jaws that bite, the claws that catch!
+                <br>
+                Beware the Jubjub bird, and shun
+                <br>
+                The frumious Bandersnatch!
+                <br><br>
+                He took his vorpal sword in hand;
+                <br>
+                Long time the manxome foe he sought - 
+                <br>
+                So rested he by the Tumtum tree
+                <br>
+                And stood awhile in thought.
+                <br><br>
+                And, as in uffish thought he stood,
+                <br>
+                The Jabberwock, with eyes of flame,
+                <br>
+                Came whiffling through the tulgey wood,
+                <br>
+                And burbled as it came!
+                <br><br>
+                One, two! One, two! And through and through
+                <br>
+                The vorpal blade went snicker-snack!
+                <br>
+                He left it dead, and with its head
+                <br>
+                He went galumphing back.
+                <br><br>
+                And hast thou slain the Jabberwock?
+                <br>
+                Come to my arms, my beamish boy!
+                <br>
+                O frabjous day! Callooh! Callay!
+                <br>
+                He chortled in his joy.
+                <br><br>
+                Twas brillig, and the slithy toves
+                <br>
+                Did gyre and gimble in the wabe:
+                <br>
+                All mimsy were the borogoves,
+                <br>
+                And the mome raths outgrabe.
+                </i>
+            </div>
+            <br><br>
+            <b>Premiere Performances</b>
+            <br>
+            <div class="location_performed">
+                <i>NJO conducted by David Wright in Boston, Ma (December 6, 2022) </i>
+            </div>
+            <br><br>
+            <b>Instrumentation</b>
+            <br><br>
+            <div class="instrumentation">
+                <i>
+                Soprano Sax <br>
+                Alto Sax <br>
+                Flute <br>
+                Tenor Sax <br>
+                Bass Clarinet
+                <br><br>
+                5 Trumpet
+                <br><br>
+                3 Trombone <br>
+                Tuba
+                <br><br>
+                Electric Guitar <br>
+                Vibraphone <br>
+                Piano <br>
+                Acoustic Bass <br>
+                Drum Set
+                </i>
+            </div>
+            <br><br>
+            <div class="reach">
+                <p>
+                    For inquiries about scores and parts, reach out to
+                    <br>
+                    <b>Zachachr40@gmail.com</b>
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+{% endblock %}

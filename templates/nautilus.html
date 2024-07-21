@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<link href="{{ url_for('static', filename='css/individual_score.css')}}" rel="stylesheet">
+
+<style>
+    .perc_list {
+        font-size: 8px;
+    }
+</style>
+
+{% endblock %}
+
+{% block body %}
+
+<main>
+    <div class="body_content">
+        <div class="title_header">
+            <b>Nautilus</b> 2023 (<i>c.a. 8 minutes</i>)
+        </div>
+        <div class="instrument_subheader">
+            <i>for Chamber Orchestra</i>
+        </div>
+        <button><a href="scores">Return</a></button>
+        <br><br>
+        <div class="document">
+            <embed src="static/pdf/Nautilus_score.pdf" width="500px" height="645px">
+        </div>
+        <div class="paragraph_content">
+            <div class="audio_controls">
+                <audio controls>
+                    <source src="{{ url_for('static', filename='audio/Zacharias_Nautilus_midi.mp3')}}">
+                </audio>
+                <br>
+                <div class="small_text">
+                    <i>Midi audio representation</i>
+                </div>
+            </div>
+            <br><br>
+            <b>Premiere Performances</b>
+            <br>
+            <div class="location_performed">
+                <i>Pacific Chamber Orchestra conducted by Lawrence Kohl in Livermore, California (October 29, 2023) </i>
+            </div>
+            <br><br>
+            <b>Instrumentation</b>
+            <br><br>
+            <div class="instrumentation_resize">
+                <i>
+                Flute/Piccolo <br>
+                Oboe <br>
+                B<sup>b</sup> Clarinet <br>
+                Bassoon
+                <br><br>
+                Horn in F <br>
+                Trumpet <br>
+                Trombone
+                <br><br>
+                Percussion I: <br>
+                (Pedal Timpani (Starting pitches E<sup>b</sup> B<sup>b</sup>))
+                <br><br>
+                Percussion II: <br>
+                (Vibraphone, Crotales (1 octave), Triangle, Woodblocks, Bass Drum)
+                <br><br>
+                4 Violin I <br>
+                3 Violin II <br>
+                3 Viola <br>
+                2 Cello <br>
+                Double Bass
+                </i>
+            </div>
+            <br><br>
+            <div class="reach">
+                    For inquiries about scores and parts, reach out to
+                    <br>
+                    <b>Zachachr40@gmail.com</b>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+{% endblock %}

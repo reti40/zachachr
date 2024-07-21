@@ -1,0 +1,183 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<link href="{{ url_for('static', filename='css/set_theory.css')}}" rel="stylesheet">
+<link href="{{ url_for('static', filename='css/scores.css')}}" rel="stylesheet">
+
+
+<style>
+    header{
+        width: 100%;
+        top: 0;
+    }
+    h1{
+        padding-top: 75px;
+    }
+</style>
+
+{% endblock %}
+
+{% block body %}
+
+<main>
+    <div class="reachingout">
+        <p>
+            For inquiries about scores, parts, or general questions, reach out to 
+            <br>
+            <b>Zachachr40@gmail.com</b>
+        </p>
+    </div>
+    <div class="Score_content">
+        <h2>
+            Score List
+        </h2>
+        <br><br>
+        <div class="Influx">
+            <li>
+            <b><a href="In_Flux"><u>In Flux</u></a></b> 2024 (<i>c.a. 5<sup>1</sup>/<sub>2</sub> - 7 minutes</i>)
+            <span class="Influx_preview">
+                <iframe src="static/pdf/Zacharias_Influx.pdf" height="385px"></iframe>
+            </span>
+            <br>
+            <i>Quintet</i>
+        </li>
+    </div>
+    <br><br><br>
+        <div class="Redfin">
+                <li>
+                <b><a href="redfin"><u>Redfin</u></a></b> 2024 (<i>c.a. 3<sup>1</sup>/<sub>2</sub> minutes</i>)
+                <span class="Redfin_preview">
+                    <iframe src="static/pdf/Zacharias_Redfin_preview.pdf" height="385px"></iframe>
+                </span>
+                <br>
+                <i>Quintet</i>
+            </li>
+        </div>
+        <br><br><br>
+        <div class="Reflections">
+            <li>
+                <b><a href="reflections"><u>Reflections</u></a></b> 2024 (<i>c.a. 8 minutes</i>)
+                <span class="reflections_preview">
+                    <iframe src="static/pdf/Zacharias_reflections_preview.pdf" height="385px"></iframe>
+                </span>
+                <br>
+                <i>Solo Guitar</i>
+            </li>
+        </div>
+        <br><br><br>
+        <div class="lyingdown">
+            <li>
+                <b><a href="lying_down"><u>Lying Down</u></a></b> 2024 (<i>c.a. 8 minutes</i>)
+                <span class="lying_down_preview">
+                    <iframe src="static/pdf/Zacharias_lyingdown_preview.pdf" height="385px"></iframe>
+                </span>
+                <br>
+                <i>Pierrot Ensemble w/Soprano and 2 Percussion</i>
+            </li>
+        </div>
+        <br><br><br>
+        <div class="birdonawire">
+            <li>
+                <b><a href="bird_on_a_wire"><u>Bird On A Wire</u></a></b> 2024 (<i>c.a. 6 minutes</i>)
+                <span class="birdonawire_preview">
+                    <iframe src="static/pdf/Zacharias_BOAW_preview.pdf" height="385px"></iframe>
+                </span>
+                <br>
+                <i>Jazz Big Band (A.sx solo)</i>
+            </li>
+        </div>
+        <br><br><br>
+        <div class="naut">
+            <li>
+                <b><a href="nautilus"><u>Nautilus</u></a></b> 2023 (<i>c.a. 8 minutes</i>)
+                <span class="naut_preview">
+                    <iframe src="static/pdf/Zacharias_Nautilus_preview.pdf" height="385px"></iframe>
+                </span>
+                </span>
+                <br>
+                <i>Chamber Orchestra</i>
+            </li>
+        </div>
+        <br><br><br>
+        <li>
+            <b><u>Down the Rabbit Hole</u></b> 2023 (<i>c.a. 9 minutes</i>)
+            <br>
+            <i>Septet (Pierrot Ensemble plus viola and percussionist)</i>
+        </li>
+        <br>
+        <li>
+            <b><u>Still Sky</u></b> 2023 (<i>c.a. 5 minutes</i>)
+            <br>
+            <i>B<sup>b</sup> Clarinet, Piano, and Double Bass Trio</i>
+        </li>
+        <br>
+        <div class="wakingup">
+            <li>
+                <b><a href='waking_up'><u>Waking Up</u></a></b> 2022 (<i>c.a. 7 minutes</i>)
+                <span class="wakingup_preview">
+                    <iframe src="static/pdf/Zacharias_Waking_Up_preview.pdf" height="385px"></iframe>
+                </span>
+                <br>
+                <i>Chamber Orchestra</i>
+            </li>
+        </div>
+        <br><br><br>
+        <div class="jabb">
+            <li>
+                <b><a href="jabberwocky"><u>Jabberwocky</u></a></b> 2022 (<i>c.a. 8 minutes</i>)
+                <span class="jabb_preview">
+                    <iframe src="static/pdf/Zacharias_Jabberwocky_preview.pdf" height="385px"></iframe>
+                </span>
+                <br>
+                <i>Jazz Big Band (A.sx solo)</i>
+            </li>
+        </div>
+        <br><br><br>
+        <li>
+            <b><u>To Fool Around</u></b> 2022 (<i>c.a. 5 minutes</i>)
+            <br>
+            <i>Messiaen Quartet</i>
+        </li>
+        <br>
+        <li>
+            <b><u>Nothing Gold Can Stay</u></b> 2021 (<i>c.a. 8 minutes</i>)
+            <br>
+            <i>String Quartet</i>
+        </li>
+        <br>
+        <li>
+            <b><u>Noir</u></b> 2021 (<i>c.a. 6 minutes</i>)
+            <br>
+            <i>Small Jazz Ensemble (Tpt and Full Band Solo)</i>
+        </li>
+        <br>
+        <li>
+            <b><u>The Stranger</u></b> 2021 (<i>c.a. 7 minutes</i>)
+            <br>
+            <i>Jazz Big Band (Pno solo)</i>
+        </li>
+        <br>
+        <li>
+            <b><u>Bridge</u></b> 2021 (<i>c.a. 11 minutes</i>)
+            <br>
+            <i>Small Jazz Ensemble (T.sx Solo)</i>
+        </li>
+        <br>
+        <div class="max">
+            <li>
+                <b><a href="maxwell"><u>Maxwell</u></a></b> 2020 (<i>c.a. 5 minutes</i>)
+                <span class="max_preview">
+                    <iframe src="static/pdf/Zacharias_Maxwell_preview.pdf" height="195px"></iframe>
+                </span>
+                <br>
+                <i>Sextet (Tbn, A.sx, and Gtr solo)</i>
+            </li>
+        </div>
+    </div>
+</main>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<link href="{{ url_for('static', filename='css/individual_score.css')}}" rel="stylesheet">
+
+{% endblock %}
+
+{% block body %}
+
+<main>
+    <div class="body_content">
+        <div class="title_header">
+            <b>In Flux</b> 2024 (<i>c.a. 5 <sup>1</sup>/<sub>2</sub> - 7 minutes</i>)
+        </div>
+        <div class="instrument_subheader">
+            <i>for Quartet</i>
+        </div>
+        <button><a href="scores">Return</a></button>
+        <br><br>
+        <div class="document">
+            <embed src="static/pdf/Zacharias_In_flux.pdf" width="500px" height="645px">
+        </div>
+        <div class="paragraph_content"> 
+            <br><br>
+            <h2><b>General Thoughts</b></h2>
+            <br><br>
+            <p>
+            <b>In Flux</b> was written as an exploration of perpetual transformation, capturing the essence of change through unconventional styles and structures. Within its inception, 
+            came an influx of different ideas that ultimately made there way into the final product, creating a level of intentional gaudiness in condensing disparate fragments, focused
+            in a way that would be thematically effective.
+            </p>
+            <Br><br>
+            <b>Instrumentation</b>
+            <br><br>
+            <div class="instrumentation">
+                <i>
+                Flute
+                <br>
+                Viola
+                <br>
+                Cello
+                <br><br>
+                Piano
+                </i>
+            </div>
+            <br><br><br><br><br><br><br>
+            <div class="reach">
+                <p>
+                    For inquiries about scores and parts, reach out to
+                    <br>
+                    <b>Zachachr40@gmail.com</b>
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+{% endblock %}

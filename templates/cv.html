@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<link href="{{ url_for('static', filename='css/cv.css')}}" rel="stylesheet">
+
+
+{% endblock %}
+
+{% block body %}
+
+<main>
+    <div class="body_content">
+        <button><a href="about">Return</a></button>
+        <br><br>
+        <div class="document">
+            <embed src="static/pdf/Zacharias_CV.pdf" width="680px" height="875px">
+        </div>
+    </div>
+</main>
+
+{% endblock %}
